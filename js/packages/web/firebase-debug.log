@@ -1,0 +1,47 @@
+[debug] [2021-10-18T12:55:58.467Z] ----------------------------------------------------------------------
+[debug] [2021-10-18T12:55:58.469Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bilal Ahmad\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-10-18T12:55:58.470Z] CLI Version:   9.20.0
+[debug] [2021-10-18T12:55:58.470Z] Platform:      win32
+[debug] [2021-10-18T12:55:58.470Z] Node Version:  v16.10.0
+[debug] [2021-10-18T12:55:58.470Z] Time:          Mon Oct 18 2021 17:55:58 GMT+0500 (Pakistan Standard Time)
+[debug] [2021-10-18T12:55:58.471Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-18T12:55:58.526Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-18T12:55:58.527Z] > authorizing via signed-in user (pro123908@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\XORD\metaplex\js
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using atlas-frontend-d8b8d. 
+[debug] [2021-10-18T12:56:05.888Z] > refreshing access token with scopes: []
+[debug] [2021-10-18T12:56:05.888Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-18T12:56:06.382Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Mon, 18 Oct 2021 12:56:07 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-18T12:56:06.400Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/atlas-frontend-d8b8d [none]
+[debug] [2021-10-18T12:56:06.880Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/atlas-frontend-d8b8d 200
+[debug] [2021-10-18T12:56:06.880Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/atlas-frontend-d8b8d {"projectId":"atlas-frontend-d8b8d","projectNumber":"555403709783","displayName":"Atlas Frontend","name":"projects/atlas-frontend-d8b8d","resources":{"hostingSite":"atlas-frontend-d8b8d"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
